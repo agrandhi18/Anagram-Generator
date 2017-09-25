@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import { AnagramDataService } from "../shared/anagramData.service";
-import { AnagramData } from "../shared/anagramData.model";
+import { AnagramDataService } from '../shared/anagramData.service';
+import { AnagramData } from '../shared/anagramData.model';
 
 @Component({
-  selector: 'display-grid',
+  selector: 'app-display-grid',
   templateUrl: './display-grid.component.html',
   styleUrls: ['./display-grid.component.css']
 })
