@@ -1,0 +1,18 @@
+<div class="row">
+  <div class="col-xs-12">
+    <table class="table table-striped table-bordered">
+      <tr>
+        <th>Anagram String</th>
+        <th>Save while re-roll</th>
+      </tr>
+      <tr *ngFor="let item of anagramsList">
+        <td>
+          {{ item.anagramString }}
+        </td>
+        <td>
+          <input type="checkbox" class="custom-control-input" [checked]="item.isSelected" (change)="item.isSelected = !item.isSelected">
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>
